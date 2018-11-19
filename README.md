@@ -71,3 +71,38 @@ Non-trainable params: 0
 _________________________________________________________________
 
 Process finished with exit code 0
+
+
+
+【使用文件：返回权重张量列表.py】
+block1_conv1/kernel:0 (3, 3, 3, 64)
+block1_conv1/bias:0 (64,)
+block1_conv2/kernel:0 (3, 3, 64, 64)
+block1_conv2/bias:0 (64,)
+block2_conv1/kernel:0 (3, 3, 64, 128)
+block2_conv1/bias:0 (128,)
+block2_conv2/kernel:0 (3, 3, 128, 128)
+block2_conv2/bias:0 (128,)
+block3_conv1/kernel:0 (3, 3, 128, 256)
+block3_conv1/bias:0 (256,)
+block3_conv2/kernel:0 (3, 3, 256, 256)
+block3_conv2/bias:0 (256,)
+block3_conv3/kernel:0 (3, 3, 256, 256)
+block3_conv3/bias:0 (256,)
+block4_conv1/kernel:0 (3, 3, 256, 512)
+block4_conv1/bias:0 (512,)
+block4_conv2/kernel:0 (3, 3, 512, 512)
+block4_conv2/bias:0 (512,)
+block4_conv3/kernel:0 (3, 3, 512, 512)
+block4_conv3/bias:0 (512,)
+block5_conv1/kernel:0 (3, 3, 512, 512)
+block5_conv1/bias:0 (512,)
+block5_conv2/kernel:0 (3, 3, 512, 512)
+block5_conv2/bias:0 (512,)
+block5_conv3/kernel:0 (3, 3, 512, 512)
+block5_conv3/bias:0 (512,)
+dense_1/kernel:0 (25088, 32)
+dense_1/bias:0 (32,)
+dense_2/kernel:0 (32, 43)
+dense_2/bias:0 (43,)
+
