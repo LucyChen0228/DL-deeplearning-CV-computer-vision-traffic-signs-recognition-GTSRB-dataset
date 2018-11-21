@@ -70,8 +70,12 @@ y_test = new_y.astype(np.int8)
 np.sum(y_valid,axis=0)
 np.sum(y_train,axis=0)
 
+#调整维度的顺序
 from keras import backend as K
 K.set_image_dim_ordering('tf')
+
+
+#调用VGG16模型，以及自动下载imagenet 的权重
 from keras import applications
 base_model = applications.VGG16(weights='imagenet', include_top=False, input_shape=(img_rows, img_cols, channel))
 
