@@ -41,7 +41,7 @@ def normalise_image(X):
         result.append(im/255.0)
     return np.array(result)
 
-r_index = np.random.choice(len(X_train), 10000)
+r_index = np.random.choice(len(X_train), 20000)
 X_train=normalise_image(X_train[r_index])
 y_train=y_train[r_index]
 
