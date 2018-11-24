@@ -92,7 +92,7 @@ predictions = Dense(num_classes, activation='softmax')(x)
 # this is the model we will train
 model = Model(input=base_model.input, output=predictions)
 
-sgd = SGD(lr=1e-3, decay=1e-6, momentum=0.9, nesterov=True)
+sgd = SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(optimizer=sgd, loss='categorical_crossentropy', metrics=['accuracy'])
 
 batch_size = 40
